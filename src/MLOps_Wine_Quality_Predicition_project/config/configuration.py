@@ -2,7 +2,7 @@
 from src.MLOps_Wine_Quality_Predicition_project.constants import *
 from src.MLOps_Wine_Quality_Predicition_project.utils.common import read_yaml, create_directories
 
-from src.MLOps_Wine_Quality_Predicition_project.entity.config_entity import DataIngestionConfig
+from src.MLOps_Wine_Quality_Predicition_project.entity.config_entity import (DataIngestionConfig, DataValidationConfig)
 
 
 class ConfigurationManager:
@@ -34,4 +34,22 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+    
+    
+    def get_data_validation_config(self) -> DataValidationConfig:
+        config = self.config.data_validation
+
+        create_directories([config.root_dir])
+
+        data_validation_config = DataValidationConfig(
+            root_dir=Path(config.root_dir),
+            status_file=config.status_file,
+            unzip_data_dir=Path(config.unzip_data_dir),
+            all_schema=self.schema.COLUMNS,  # Assuming schema.yaml has a "columns" section
+            local_data_file=Path(config.local_data_file)
+        )
+
+        return data_validation_config
+
         
