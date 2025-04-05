@@ -2,8 +2,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict
 
-@dataclass(frozen = True)
 
+
+# ----------- Data Ingestion -----------
+@dataclass(frozen = True)
 class DataIngestionConfig:
     
     root_dir : Path
@@ -12,7 +14,8 @@ class DataIngestionConfig:
     unzip_dir: Path
     
     
-    
+
+# ----------- Data Validation -----------   
 @dataclass(frozen=True)
 class DataValidationConfig:
     root_dir: Path
@@ -20,3 +23,23 @@ class DataValidationConfig:
     unzip_data_dir: Path
     all_schema: Dict[str, any]
     local_data_file: Path
+
+
+# ----------- Data Tansformation -----------
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
+ 
+ 
+
+# -----------Model Training -----------
+@dataclass
+class ModelTrainerConfig:
+    root_dir: str
+    train_data_path: str
+    test_data_path: str
+    model_name: str
+    alpha: float
+    l1_ratio: float
+    target_column: str
