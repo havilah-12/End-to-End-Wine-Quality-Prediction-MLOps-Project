@@ -3,7 +3,7 @@ from src.MLOps_Wine_Quality_Predicition_project import logger
 from sklearn.linear_model import ElasticNet
 import joblib
 from src.MLOps_Wine_Quality_Predicition_project.entity.config_entity import ModelTrainerConfig
-
+import os
 # -------------------- Model Trainer --------------------
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
