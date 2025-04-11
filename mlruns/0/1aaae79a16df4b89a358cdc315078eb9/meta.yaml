@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/havil/OneDrive/Desktop/projects/End-to-End-Wine-Quality-Prediction-MLOps-Project/mlruns/0/1aaae79a16df4b89a358cdc315078eb9/artifacts
+end_time: 1744360017025
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1aaae79a16df4b89a358cdc315078eb9
+run_name: auspicious-ant-598
+run_uuid: 1aaae79a16df4b89a358cdc315078eb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744360011433
+status: 3
+tags: []
+user_id: havil

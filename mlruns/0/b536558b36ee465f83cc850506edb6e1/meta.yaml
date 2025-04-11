@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/havil/OneDrive/Desktop/projects/End-to-End-Wine-Quality-Prediction-MLOps-Project/mlruns/0/b536558b36ee465f83cc850506edb6e1/artifacts
+end_time: 1744360202476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b536558b36ee465f83cc850506edb6e1
+run_name: smiling-shrew-555
+run_uuid: b536558b36ee465f83cc850506edb6e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744360196986
+status: 3
+tags: []
+user_id: havil

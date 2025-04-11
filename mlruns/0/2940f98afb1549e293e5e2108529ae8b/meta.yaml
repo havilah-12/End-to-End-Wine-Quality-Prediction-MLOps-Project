@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/havil/OneDrive/Desktop/projects/End-to-End-Wine-Quality-Prediction-MLOps-Project/mlruns/0/2940f98afb1549e293e5e2108529ae8b/artifacts
+end_time: 1744359246580
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2940f98afb1549e293e5e2108529ae8b
+run_name: receptive-asp-668
+run_uuid: 2940f98afb1549e293e5e2108529ae8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744359226426
+status: 3
+tags: []
+user_id: havil

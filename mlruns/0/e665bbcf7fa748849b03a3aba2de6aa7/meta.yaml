@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/havil/OneDrive/Desktop/projects/End-to-End-Wine-Quality-Prediction-MLOps-Project/mlruns/0/e665bbcf7fa748849b03a3aba2de6aa7/artifacts
+end_time: 1744362224594
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e665bbcf7fa748849b03a3aba2de6aa7
+run_name: rare-foal-194
+run_uuid: e665bbcf7fa748849b03a3aba2de6aa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744362215854
+status: 3
+tags: []
+user_id: havil

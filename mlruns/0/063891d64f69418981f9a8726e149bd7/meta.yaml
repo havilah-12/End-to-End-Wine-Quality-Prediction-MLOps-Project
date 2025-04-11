@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/havil/OneDrive/Desktop/projects/End-to-End-Wine-Quality-Prediction-MLOps-Project/mlruns/0/063891d64f69418981f9a8726e149bd7/artifacts
+end_time: 1744359993615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 063891d64f69418981f9a8726e149bd7
+run_name: dashing-snake-812
+run_uuid: 063891d64f69418981f9a8726e149bd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744359986848
+status: 3
+tags: []
+user_id: havil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/havil/OneDrive/Desktop/projects/End-to-End-Wine-Quality-Prediction-MLOps-Project/mlruns/0/7eea2cd3f0c04bf0ae012272db0b7da3/artifacts
+end_time: 1744373327872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7eea2cd3f0c04bf0ae012272db0b7da3
+run_name: defiant-snake-885
+run_uuid: 7eea2cd3f0c04bf0ae012272db0b7da3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744373312540
+status: 3
+tags: []
+user_id: havil
