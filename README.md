@@ -64,8 +64,10 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-import dagshub
-dagshub.init(repo_owner='havilah.b21', repo_name='End-to-End-Wine-Quality-Prediction-MLOps-Project', mlflow=True)
+MLFLOW_TRACKING_URI=
+MLFLOW_TRACKING_USERNAME=
+MLFLOW_TRACKING_PASSWORD=
+python script.py
 
 import mlflow
 with mlflow.start_run():
